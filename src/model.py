@@ -29,7 +29,7 @@ class Modeling:
             self.model = GradientBoostingClassifier()
         elif self.tech == 'kn':
             self.model = KNeighborsClassifier()
-        elif self.model = 'svm':
+        elif self.model == 'svm':
             self.model = SVC()
         return self.model
 
@@ -38,6 +38,6 @@ class Modeling:
         return self.model.fit(self.X_train,self.y_train)
 
     def prediction(self, y_test):
-        return self.model.predict(self.y_test)
-
+        y_pred = self.model.predict(self.y_test)
+        return y_pred
     
