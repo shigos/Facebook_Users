@@ -1,6 +1,7 @@
 # Predicting Facebook Users' Gender
 
 # Motivation
+There are roughly 2.9 billion active users on Facebook in the second quarter of 2021 with the number of active users still steadily increasing. The purpose of this project sought to identify whether there are telltale signs pointing to gender based on various social metrics and other online behavorial metrics.
 
 Facebook users of different genders display various online behaviors based off of social metrics. 
 
