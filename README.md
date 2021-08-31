@@ -42,7 +42,7 @@ The distribution of user age show a significantly greater number of younger indi
 
 [figure description]
 
-There seems to be an even distribution of genders with there being slightly more male users in this data.
+There seems to a generally balanced distribution of genders with there being slightly more male users in this data.
 ![total_users_by_gender.jpg](img/total_users_by_gender.jpg)
 
 [figure description]
@@ -54,7 +54,8 @@ There seems to be an even distribution of genders with there being slightly more
 ![friendships_initiated_gender.jpg](img/friendships_initiated_gender.jpg)
 
 # Modeling
-With the target set as a binary classfication in for modeling, a baseline of random choice would yield 50% accuracy.  
+With the target set as a binary classfication in for modeling, a baseline of random choice would yield 50% accuracy. 
+Logistic regression and Random Forests Classification models were implemented   
 
 # Results
 
